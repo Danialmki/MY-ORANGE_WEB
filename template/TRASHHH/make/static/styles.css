@@ -1,0 +1,242 @@
+
+.title, .submit, .password, .username, .signup, .or{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 0%;
+}
+*{
+    padding: 0;
+    margin: 0%;
+    
+}
+
+.main {
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.PayDon{
+    background-color: rgba(67, 43, 226, 0.337);
+    justify-content: center;
+    border: 5px;
+    border-color: black;
+    padding-top: 20px;
+    width: 500px;
+    border: 2px solid;
+    border-color: rgba(51, 51, 51, 0.199);
+    margin-top: 25px;
+    border-radius: 6px;
+    padding-bottom: 25px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    color: rgb(67, 43, 226);
+
+    width: 100%;
+    font-size: 35px;
+}
+
+.title h1{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    width: 100%;
+}
+.title h3{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    font-family: 'Rubik Iso', cursive;
+    font-family: 'PT Serif', serif;
+
+}
+.username,.password{
+    text-align: center;
+    font-size: 18px; 
+}
+
+.username input{
+    font-size: 18px; 
+    max-width: 420px; 
+    margin: 0 auto;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid  rgba(43, 41, 58, 0.54);
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 10px 15px 10px 20px;
+    background-color: aliceblue;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin-bottom: 20px;
+}
+
+.username form{
+    margin: 20px;
+    margin-bottom: 0;
+    max-width: 500px; 
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.password input{
+    font-size: 18px; 
+    max-width: 420px; 
+    margin: 0 auto;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid  rgba(43, 41, 58, 0.54);
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 10px 15px 10px 20px;
+    background-color: aliceblue;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin-bottom: 20px;
+}
+
+.submit{
+    text-align: center;
+    font-size: 18px; /* Set the font size */
+    color: red;
+    }
+
+.submit button{
+    font-size: 18px; 
+    max-width: 500px; 
+    margin: 20px ;
+    width: 100%;
+    height: 100%;
+    background: rgb(67, 43, 226);
+    border: 2px solid rgba(43, 41, 58, 0.54);
+    border-radius: 4px;
+    padding: 10px 15px 10px 20px;
+    color:white;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans Sogdian', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik Iso', cursive;
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+    transition: background-color 0.3s ease-in;
+
+}
+
+.signup{
+    text-align: center;
+    font-size: 18px; /* Set the font size */
+}
+
+
+.or{
+    display: flex;
+    flex-direction: row;
+}
+
+.signup button{
+    font-size: 18px; 
+    max-width: 500px; 
+    width: 100%;
+    height: 100%;
+    background: rgba(43, 41, 58, 0.54);;
+    border: 0.5px solid rgba(43, 41, 58, 0.54);
+    border-radius: 4px;
+    padding: 10px 15px 10px 20px;
+    color:rgba(38, 37, 48, 0.745);;
+    font-family: 'Inter', sans-serif;
+font-family: 'Noto Sans Sogdian', sans-serif;
+font-family: 'Rubik', sans-serif;
+cursor: pointer; 
+}
+
+
+.signup a{
+    margin: 20px;
+    max-width: 500px; 
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+
+button:hover {
+    filter: saturate(1.2);
+}
+
+.signup button:hover{
+    background-color:  rgb(67, 43, 226);
+    color: white;
+}
+
+.lang{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:start ;
+    border: 5px;
+    border-color: black;
+    padding-top: 20px;
+    width: 500px;
+    margin-bottom: 0;
+}
+
+
+.dropdown {
+    margin-left: 0;
+    margin-bottom: 0%;
+    cursor: pointer;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: none;
+    z-index: 1;
+    margin-bottom: 0%;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.languages {
+    border: none;
+    background-color:white;
+    color: rgba(0, 0, 0, 0.341);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .my-container {
+        width: 100%; 
+        max-width: 320px; 
+        padding: 10px;
+    }

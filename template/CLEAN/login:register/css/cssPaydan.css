@@ -1,0 +1,385 @@
+
+.title, .submit, .password, .username, .signup, .or{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 0%;
+}
+
+*{
+    margin: 0;
+    padding: 0%;
+    background-image:url(/image/2.png);
+    overflow: hidden;
+}
+
+.main {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 0; /* Initially, set the width to 0 to make it hidden */
+    height: 100%;
+    background-color: #fff; /* Set your desired background color */
+    transition: width 0.3s ease-in-out; /* Add a smooth transition effect */
+    position: relative;
+    border: none;
+    background: transparent;
+}
+
+.main.active {
+    width: 100%;
+}
+
+.main.active .login-form {
+    padding: 20px;
+
+}
+
+.PayDon{
+    background-color: aqua;
+    justify-content: center;
+    border: 5px;
+    border-color: black;
+    width: 500px;
+    border: 2px solid;
+    border-color: rgba(51, 51, 51, 0.199);
+    margin-top: 25px;
+    border-radius: 6px;
+    padding-bottom: 25px;
+    background: transparent;
+}
+
+.title{
+    color:rgb(233, 88,88); ;
+    font-family: 'Lora', serif;
+    width: 100%;
+    font-size: 35px;
+}
+
+.title h1{
+    text-align: center;
+    width: 100%;
+    font-family: 'Lora', serif;
+    font-family: 'Noto Serif', serif;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    
+}
+
+
+.username,.password{
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+    border-radius: 5px;
+}
+
+.username input{
+    font-size: 18px; 
+    max-width: 420px; 
+    margin: 0 auto;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(43, 41, 58, 0.54);
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 10px 15px 10px 20px;
+    color: rgba(34, 34, 34, 0.786);
+    font-family: 'Lora', serif;
+    font-family: 'Noto Serif', serif;
+    margin-bottom: 20px;
+    backdrop-filter: blur(10px);
+}
+
+.username input:focus {
+    outline: none;
+}
+
+
+
+.password input{
+    font-size: 18px; 
+    max-width: 420px; 
+    margin: 0 auto;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(43, 41, 58, 0.54);
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 10px 15px 10px 20px;
+    color: rgba(34, 34, 34, 0.786);
+    font-family: 'Lora', serif;
+    font-family: 'Noto Serif', serif;
+    margin-bottom: 20px;
+    backdrop-filter: blur(5px);
+}
+.password input:focus {
+    outline: none;
+}
+
+
+.submittt a{
+    
+    max-width: 500px; 
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    color: blue;
+    border: none;
+}
+
+.submittt{
+    
+    text-align: center;
+    font-size: 18px; /* Set the font size */
+    color: blue;
+    margin: 20px;
+    border-radius: 4px;
+}
+
+.submittt button {
+    
+    font-size: 18px; 
+    max-width: 500px; 
+    width: 100%;
+    height: 100%;
+    border: 0.5px solid rgba(255, 255, 255, 0.54);
+    border-radius: 4px;
+    padding: 10px 15px 10px 20px;
+    color:rgba(6, 6, 6, 0.745);;
+    font-family: 'Lora', serif;
+    font-family: 'Noto Serif', serif;
+    cursor: pointer;
+    background: rgba(173, 173, 226, 0.624);
+}
+
+.submittt button:hover{
+    filter: brightness(0.8);
+}
+
+
+ button:focus {
+    outline: none;
+ }
+    
+
+.signup{
+    text-align: center;
+    font-size: 18px; /* Set the font size */
+    background: transparent;
+}
+
+
+.or{
+    display: flex;
+    flex-direction: row;
+    background: transparent;
+    font-family: 'Lora', serif;
+    font-family: 'Noto Serif', serif;
+}
+
+.or p{
+    background: transparent;
+}
+
+
+
+.or p{
+    font-size: 18px; 
+    color: rgba(43, 41, 58, 0.54);
+
+}
+
+.signup button{
+    box-shadow: none;
+    font-size: 18px; 
+    max-width: 500px; 
+    width: 100%;
+    height: 100%;
+    background: rgba(43, 41, 58, 0.54);;
+    border: 0.5px solid rgba(43, 41, 58, 0.54);
+    border-radius: 4px;
+    padding: 10px 15px 10px 20px;
+    color:rgba(255, 255, 255, 0.745);
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Lora', serif;
+    font-family: 'Noto Serif', serif;
+    
+}
+
+
+
+.signup a{
+    margin: 20px;
+    max-width: 500px; 
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    background: transparent;
+    text-decoration: none;
+    border: none;
+    
+
+}
+
+
+.signup button:hover{
+    text-decoration: none;
+    background-color:rgb(233, 88,88); 
+    color: black;
+}
+
+.lang button{
+    background: transparent;
+
+}
+
+.lang{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:start ;
+    border: 5px;
+    border-color: black;
+    padding-top: 20px;
+    width: 500px;
+    margin-bottom: 0;
+    background: transparent;
+    margin-bottom: 20px;
+
+    font-family: 'Noto Serif', serif;
+}
+
+img{
+    background: transparent;
+}
+
+
+.dropdown {
+    margin-left: 0;
+    margin-bottom: 0%;
+    cursor: pointer;
+    background: transparent;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: none;
+    z-index: 1;
+    margin-bottom: 0%;
+    cursor: pointer;
+    font-family: 'Lora', serif;
+    font-family: 'Noto Serif', serif;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.dropdown-content {
+    width: auto;
+    height: auto;
+    background: space;
+    box-shadow: none;
+    font-family: 'Lora', serif;
+    font-family: 'Noto Serif', serif;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.languages {
+    width: auto;
+    height: auto;
+    border: none;
+    border: 0ch;
+    cursor:wait;
+    font-family: 'Lora', serif;
+    font-family: 'Noto Serif', serif;
+}
+
+.language {
+    width: auto;
+    height: auto;
+    border: none;
+    border: 0ch;
+    font-family: 'Lora', serif;
+    font-family: 'Noto Serif', serif;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.489);
+}
+
+
+
+
+/* Your existing CSS code */
+
+/* Media query for screens up to 768px wide */
+@media (max-width: 768px) {
+    /* Adjustments for mobile screens */
+
+    /* Center the content vertically and horizontally */
+    .title, .submit, .password, .username, .signup, .or, .main {
+        justify-content: center;
+        align-items: center;
+        text-align: center; /* Center the text content */
+    }
+
+    /* Adjust the width of the PayDon container and increase padding */
+    .PayDon {
+        width: 100%;
+        max-width: 320px;
+        padding: 20px;
+        margin-top: 10px; /* Reduce top margin for spacing */
+    }
+
+    /* Reduce the font size of the title for better mobile display */
+    .title {
+        font-size: 24px;
+    }
+
+    /* Make input fields and buttons full-width on mobile */
+    .username input,
+    .password input,
+    .submit button,
+    .signup button {
+        width: 100%;
+        max-width: 320px; /* Adjust the maximum width as needed */
+    }
+
+    /* Increase spacing between elements on mobile */
+    .username, .password {
+        margin-bottom: 10px;
+    }
+
+    /* Adjust the width and spacing of the "or" section */
+    .or {
+        flex-direction: column;
+    }
+
+    /* Adjust the styling of the "or" text */
+    .or p {
+        margin: 5px 0;
+    }
+
+    /* Adjust the width and spacing of the language selector */
+    .lang {
+        max-width: 320px; /* Adjust the maximum width as needed */
+        padding: 10px;
+    }
+}
